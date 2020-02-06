@@ -1,0 +1,93 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* ===  Section CSS Start === */
+.feature-bg-1 {background-image: url(../img/feature-1.jpg);}
+.feature-bg-2 {background-image: url(../img/feature-2.jpg);}
+.feature-bg-3 {background-image: url(../img/feature-3.jpg);}
+.feature-bg-4 {background-image: url(../img/feature-4.jpg);}
+.feature-bg {
+  background-color: #ddd;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.features-menu {
+  margin: 0 0 100px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.features-menu li {
+  display: inline-block;
+}
+.features-menu li a {
+  display: block;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 4px solid transparent;
+  margin: 0 20px;
+}
+.features-menu li.active a{border-color:#ffce43;} 
+.sigle-feature-item {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  display: table;
+}
+.feature-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 550px;
+}
+.feature-text h4 {
+  font-size: 30px;
+  opacity: .3;
+}
+.feature-text h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+body {
+  font-size: 16px;
+  line-height: 1.7;
+}
+.feature-text p {
+  text-align: justify;
+}
+.boxed-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #ffcd46;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 40px;
+  margin-top: 15px;
+}
+/* ===  Section CSS Stop === */
